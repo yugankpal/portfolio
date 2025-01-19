@@ -1,0 +1,58 @@
+.example-card {
+    max-width: 190px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://images.ctfassets.net/23aumh6u8s0i/5qsAo7jIYvClWYLYPFaMPS/d1ef0c663cda250b166218ed66bfe4a4/NET.png');
+    background-size: cover;
+  }
+
+  .new-card {
+    max-width: 190px;
+    margin-left: 10px;
+  }
+  
+  .new-header-image2 {
+    background-image: url('https://th.bing.com/th/id/OIP.vPuTqSTYUdSe9mokgCdPiAAAAA?rs=1&pid=ImgDetMain');
+    background-size: cover;
+  }
+
+  .new-header-image3 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png');
+    background-size: cover;
+  }
+  .new-header-image4 {
+    background-image: url('https://th.bing.com/th/id/R.3bbdc91c5d0fe833983ec57cd9e11243?rik=PGbJy3m0MpFnPA&riu=http%3a%2f%2fwww.databaseguides.com%2fwp-content%2fuploads%2f2009%2f09%2fMySQL-PostgreSQl.jpg&ehk=la5N9koy%2fMsdYwnmNAhAI8q3zQyz0OS3EUL%2b27zm6ng%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+  }
+  .new-header-image5 {
+    background-image: url('https://i.ytimg.com/vi/wykQ84cSfuM/maxresdefault.jpg');
+    background-size: cover;
+  }
+  .new-header-image6 {
+    background-image: url('https://th.bing.com/th/id/OIP.FCNg60fCpTPBHk7Sr7lzqgHaHa?rs=1&pid=ImgDetMain');
+    background-size: cover;
+  }
+  .new-header-image7 {
+    background-image: url('https://w7.pngwing.com/pngs/164/851/png-transparent-mirth-connect-health-level-7-javascript-xamarin-nextgen-healthcare-information-systems-others-thumbnail.png');
+    background-size: cover;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: normal;
+    flex-wrap: wrap;
+  }
+
+  mat-card img {
+    width: 100%;
+    height: 130px; /* Set a fixed height */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif; /* Set a nice font family */
+    font-size: 12px; /* Set a nice font size */
+    line-height: 1.5; /* Improve readability */
+    color: #333; /* Set a nice text color */
+  }

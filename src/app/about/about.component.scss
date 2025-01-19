@@ -1,0 +1,27 @@
+// filepath: /C:/Users/palllyug/Desktop/old mat/New folder/portfolio-website/src/app/about/about.component.scss
+.about-container {
+    padding: 20px;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .about-text {
+    padding: 20px;
+  }
+  
+  .about-text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
